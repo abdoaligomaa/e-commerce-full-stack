@@ -1,0 +1,39 @@
+.ant-form {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  max-width: 30rem;
+  margin-inline: auto;
+  margin-bottom: 1.5rem;
+
+  .title {
+    text-align: start;
+    margin-bottom: 1rem;
+
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  :global {
+    .ant-form-item {
+      margin-bottom: 1.5rem;
+
+      label {
+        font-weight: 700;
+      }
+
+      .ant-form-item-explain-error {
+        text-align: start;
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .submit-btn {
+    margin-top: 1rem;
+    background-color: #ffd814;
+  }
+  .agree {
+    text-align: start;
+  }
+}
